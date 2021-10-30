@@ -1,0 +1,29 @@
+*.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+test.py
+quicktest.py
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
