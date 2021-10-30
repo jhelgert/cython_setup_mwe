@@ -8,4 +8,7 @@ ext_modules = [
     Extension("my_package.b", ["my_package/b.pyx"])
 ]
 
-setup(ext_modules=cythonize(ext_modules), name="my_package")
+setup(ext_modules=cythonize(ext_modules),
+      packages=["my_package"],
+      name="my_package",
+      zip_safe=False)

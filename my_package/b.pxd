@@ -1,3 +1,3 @@
 
 
-cdef b_fun(int a, int b)
+cpdef b_fun(int a, int b)
